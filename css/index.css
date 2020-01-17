@@ -144,3 +144,176 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+#navgroup{
+margin-top: 3%;
+margin-bottom: 3%;
+    
+}
+
+#navgroup nav a{
+    width: 80%;
+    margin-top: 3%;
+    font-size: small;
+    color: black;	
+  text-decoration:none;
+  transition: 0.32s;
+  margin-left:5%;
+  text-align: center;
+  border-radius: 50%;
+}
+nav a:hover{
+    background-color: yellowgreen;
+    color:red;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+  nav a:active{
+      background-color:greenyellow;
+      box-shadow: 0 5px gold;
+      color:black;
+      transform: translateY(4px);
+  }
+
+.logo{
+
+}
+
+.links{
+    display: flex;
+    justify-content:space-between;
+    align-items: flex-start;
+}
+
+body{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.headimg{
+    display:flex;
+	  justify-content: center;
+	margin-left:auto;
+    margin-right:auto;
+    margin-bottom: 3%;
+}
+
+.about-sec{
+
+	display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 3%;
+    border-bottom: 1px dashed black;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.midsec{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.midsec div{
+width:46.3%;
+margin-top: 5%;
+}
+
+.learnbutton{
+    width: 30% !important; 
+    margin-top: 4%;
+    margin-bottom: 4%;
+    text-align: center;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	border:2px solid black;
+	border-radius: 6px;
+	transition: 0.32s;
+    background-color: white;
+
+}
+.learnbutton:hover{
+	background:lightyellow;
+	color: skyblue;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    cursor:pointer;
+}
+.learnbutton:active{
+	background-color:greenyellow;
+  box-shadow: 0 5px #666;
+  color:black;
+  transform: translateY(4px);
+}
+
+.strategy{
+    border-bottom: 1px dashed black;
+
+}
+
+.how-we-work{
+    border-bottom: 1px dashed black;
+    
+}
+.places-we-work{
+    border-bottom: 1px dashed black;
+}
+.collaboration{
+    border-bottom: 1px dashed black;
+}
+
+.letswork{
+    width: 95%;
+    margin-top:5%;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.abouttext{
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contact-sec{
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 3%;
+    border-bottom: 1px dashed black;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contactustext{
+    align-content: center;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#contactform{
+	padding: 3% 0;
+  text-align:center;
+	display: flex;
+	flex-direction: column;
+	align-self: center;
+	background-color:lightgrey;
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+    border: 1px solid black;
+    border-radius: 10px;
+    
+}
+
+form{
+
+	margin-left: auto;
+	margin-right: auto;
+	width: 40%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
