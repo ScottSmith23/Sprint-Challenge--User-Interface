@@ -159,7 +159,20 @@ margin-bottom: 3%;
   text-decoration:none;
   transition: 0.32s;
   margin-left:5%;
+  text-align: center;
+  border-radius: 50%;
 }
+nav a:hover{
+    background-color: yellowgreen;
+    color:red;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+  nav a:active{
+      background-color:greenyellow;
+      box-shadow: 0 5px gold;
+      color:black;
+      transform: translateY(4px);
+  }
 
 .logo{
 
@@ -191,6 +204,9 @@ body{
     flex-wrap: wrap;
     padding-bottom: 3%;
     border-bottom: 1px dashed black;
+    margin-left: auto;
+    margin-right: auto;
+    
 }
 
 .midsec{
@@ -218,6 +234,18 @@ margin-top: 5%;
     background-color: white;
 
 }
+.learnbutton:hover{
+	background:lightyellow;
+	color: skyblue;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    cursor:pointer;
+}
+.learnbutton:active{
+	background-color:greenyellow;
+  box-shadow: 0 5px #666;
+  color:black;
+  transform: translateY(4px);
+}
 
 .strategy{
     border-bottom: 1px dashed black;
@@ -236,9 +264,15 @@ margin-top: 5%;
 }
 
 .letswork{
-    width: 92%;
+    width: 95%;
     margin-top:5%;
     margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.abouttext{
+    width: 95%;
     margin-left: auto;
     margin-right: auto;
 }
