@@ -152,11 +152,13 @@ margin-bottom: 3%;
 }
 
 #navgroup nav a{
+    width: 80%;
     margin-top: 3%;
     font-size: small;
     color: black;	
   text-decoration:none;
   transition: 0.32s;
+  margin-left:5%;
 }
 
 .logo{
@@ -194,13 +196,13 @@ body{
 .midsec{
     display:flex;
     flex-wrap: wrap;
+    justify-content: space-around;
 
 }
 
 .midsec div{
-width:50%;
+width:46.3%;
 margin-top: 5%;
-
 }
 
 .learnbutton{
@@ -218,13 +220,25 @@ margin-top: 5%;
 }
 
 .strategy{
-  border-bottom: 1px dashed black;
+    border-bottom: 1px dashed black;
 
 }
 
-
+.how-we-work{
+    border-bottom: 1px dashed black;
+    
+}
+.places-we-work{
+    border-bottom: 1px dashed black;
+}
+.collaboration{
+    border-bottom: 1px dashed black;
+}
 
 .letswork{
+    width: 92%;
     margin-top:5%;
     margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
 }
