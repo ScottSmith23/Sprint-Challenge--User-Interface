@@ -276,3 +276,44 @@ margin-top: 5%;
     margin-left: auto;
     margin-right: auto;
 }
+
+.contact-sec{
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 3%;
+    border-bottom: 1px dashed black;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contactustext{
+    align-content: center;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#contactform{
+	padding: 3% 0;
+  text-align:center;
+	display: flex;
+	flex-direction: column;
+	align-self: center;
+	background-color:lightgrey;
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+    border: 1px solid black;
+    border-radius: 10px;
+    
+}
+
+form{
+
+	margin-left: auto;
+	margin-right: auto;
+	width: 40%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
